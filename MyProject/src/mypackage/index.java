@@ -3,7 +3,7 @@ package mypackage;
 public class index {
     public static void main(String[] args) {
         if (args.length > 0) {
-            String str = args[0]; // コマンドライン引数として受け取った文字列
+            String str = args[0];
             String reversedStr = reverseString(str);
 
             System.out.println("元の文字列: " + str);
